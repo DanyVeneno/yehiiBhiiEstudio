@@ -6,8 +6,9 @@
 }
 
 :root {
-  --color-primary: #191d2b;
-  --color-secondary: #27AE60;
+  /*--color-primary: #191d2b;*/
+  --color-primary: #262626;
+  --color-secondary: #caff9f;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -23,7 +24,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-secondary: #666666;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -36,7 +37,7 @@
 }
 
 body {
-  background-color: var(--color-primary);
+  background-color: var(--color-newWhite);
   font-family: "Poppins", sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
@@ -121,7 +122,7 @@ section {
   transition: all 0.4s ease-in-out;
 }
 .controls .active-btn i {
-  color: var(--color-white);
+  color: var(--color-black);
 }
 
 .theme-btn {
@@ -324,7 +325,7 @@ section {
   width: 87%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 70%;
+  width: 30%;
 }
 
 .stat-title {
@@ -464,7 +465,8 @@ section {
   background-color: var(--color-white);
 }
 .portfolios .portfolio-item .hover-items .icons .icon:hover i {
-  color: var(--color-primary);
+  /*color: var(--color-primary);*/
+  color:var(--color-secondary);
 }
 
 .portfolio-item:hover .hover-items {
@@ -665,7 +667,20 @@ section {
   transform: translateX(0);
   transition: all 0.4s ease-out;
 }
+.fa-download{
+  color:#262626;
+}
+.fa-home{
+  color:#262626;
+}
+.btn-tex{
+  color:#262626;
 
+}
+.btn-text:hover{
+  color:#262626;
+
+}
 .main-title {
   text-align: center;
 }
@@ -960,5 +975,7 @@ section {
     font-size: 4rem;
   }
 }
-
+.fa-clock{
+  color:black;
+}
 /*# sourceMappingURL=styles.css.map */
