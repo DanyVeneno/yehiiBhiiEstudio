@@ -411,6 +411,7 @@ section {
 .portfolios .portfolio-item {
   position: relative;
   border-radius: 15px;
+  box-shadow:1px 2px 10px 1px rgba(202, 255, 159, 0.689);
 }
 .portfolios .portfolio-item img {
   width: 100%;
