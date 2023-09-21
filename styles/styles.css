@@ -453,7 +453,9 @@ section {
   line-height: 2rem;
   padding-bottom: 1rem;
 }
-
+.btn-con {
+  color: #9ba5ac;
+}
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
